@@ -36,6 +36,7 @@
       <h1 id="1a"> Time is <span id="time"> </span></h1>
       <p id="1a" class="answer"></p>
       <p id="currentDay" class="lead"></p>
+      <h3 style = "background-color:beige;"><em>Color Code: grey is past, red is present, green is future.</em></h3>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
@@ -45,8 +46,8 @@
    <div class="alert alert-dark" role="alert" id = "one">
         <div class="d-flex justify-content-around">
           <li class="list-group-item">09:00</li>
-          <input class="form-control" type="text" id="user-input">
-          <button type="submit" class="btn btn-primary" id = "submit-button1" onclick="test()">Submit</button>
+          <input class="form-control" type="text" placeholder="Enter an event" id="user-input">
+          <button type="submit" class="btn btn-primary" id = "submit-button1" onclick="userInput()">Submit</button>
           
         </div>
         &nbsp;
@@ -60,8 +61,10 @@
        <div class="d-flex justify-content-around">
          <li class="list-group-item">10:00</li>
          <input class="form-control" type="text" placeholder="Enter an event" id="user-input2">
-         <button type="submit" class="btn btn-primary" id = "submit-button">Submit</button>
+         <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput2()">Submit</button>
        </div>
+       &nbsp;
+       <p><strong>Event:</strong> <span id="event2"></span></p>
    </div>
   </main>
   <!--  -->
@@ -71,8 +74,10 @@
          <div class="d-flex justify-content-around">
            <li class="list-group-item">11:00</li>
            <input class="form-control" type="text" placeholder="Enter an event" id="user-input3">
-           <button type="submit" class="btn btn-primary" id = "submit-button">Submit</button>
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput3()">Submit</button>
          </div>
+         &nbsp;
+         <p><strong>Event:</strong> <span id="event3"></span></p>
      </div>
     </main>
     <!--  -->
@@ -82,8 +87,10 @@
          <div class="d-flex justify-content-around">
            <li class="list-group-item">12:00</li>
            <input class="form-control" type="text" placeholder="Enter an event" id="user-input4">
-           <button type="submit" class="btn btn-primary" id = "submit-button">Submit</button>
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput4()">Submit</button>
          </div>
+         &nbsp;
+         <p><strong>Event:</strong> <span id="event4"></span></p>
      </div>
     </main>
     <!--  -->
@@ -93,8 +100,10 @@
          <div class="d-flex justify-content-around">
            <li class="list-group-item">13:00</li>
            <input class="form-control" type="text" placeholder="Enter an event" id="user-input5">
-           <button type="submit" class="btn btn-primary" id = "submit-button">Submit</button>
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput5()">Submit</button>
          </div>
+         &nbsp;
+         <p><strong>Event:</strong> <span id="event5"></span></p>
      </div>
     </main>
     <!--  -->
@@ -104,8 +113,10 @@
          <div class="d-flex justify-content-around">
            <li class="list-group-item">14:00</li>
            <input class="form-control" type="text" placeholder="Enter an event" id="user-input6">
-           <button type="submit" class="btn btn-primary" id = "submit-button">Submit</button>
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput6()">Submit</button>
          </div>
+         &nbsp;
+         <p><strong>Event:</strong> <span id="event6"></span></p>
      </div>
     </main>
     <!--  -->
@@ -115,8 +126,10 @@
          <div class="d-flex justify-content-around">
            <li class="list-group-item">15:00</li>
            <input class="form-control" type="text" placeholder="Enter an event" id="user-input7">
-           <button type="submit" class="btn btn-primary" id = "submit-button">Submit</button>
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput7()">Submit</button>
          </div>
+         &nbsp;
+         <p><strong>Event:</strong> <span id="event7"></span></p>
      </div>
     </main>
     <!--  -->
@@ -126,8 +139,10 @@
          <div class="d-flex justify-content-around">
            <li class="list-group-item">16:00</li>
            <input class="form-control" type="text" placeholder="Enter an event" id="user-input8">
-           <button type="submit" class="btn btn-primary" id = "submit-button">Submit</button>
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput8()">Submit</button>
          </div>
+         &nbsp;
+         <p><strong>Event:</strong> <span id="event8"></span></p>
      </div>
     </main>
     <!--  -->
@@ -137,8 +152,10 @@
          <div class="d-flex justify-content-around">
            <li class="list-group-item">17:00</li>
            <input class="form-control" type="text" placeholder="Enter an event" id="user-input9">
-           <button type="submit" class="btn btn-primary" id = "submit-button">Submit</button>
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput9()">Submit</button>
          </div>
+         &nbsp;
+         <p><strong>Event:</strong> <span id="event9"></span></p>
      </div>
     </main>
     <!--  -->
